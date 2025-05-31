@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🔊 Vinterra – Real-Time AI Interview Platform
 
-## Getting Started
+Vinterra is a cutting-edge real-time AI-powered interview platform built to simulate, evaluate, and enhance interview experiences. Designed for students, job seekers, Vinterra enables seamless voice-based interactions, real-time feedback, and intelligent analytics using modern web technologies.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+- 🎤 **AI Voice Interviews**: Real-time voice interaction with AI-based interviewers.
+- ⚡ **Live Transcription**: Converts voice to text on-the-fly for accurate evaluation.
+- 🤖 **Smart Feedback**: Get instant feedback on communication, technical accuracy, and soft skills.
+- 🔐 **Authentication & Role-Based Access**: Secure user authentication via Firebase.
+- 📊 **Performance Dashboard**: View interview scores, question analytics, and improvement tips.
+- 🌐 **Multi-Role Support**: Candidate, Interviewer (AI), and Admin panels.
+- 🧠 **Custom Interview Sets**: Choose domains like DSA, Web Dev, System Design, and more.
+
+---
+
+## 🛠 Tech Stack
+
+| Technology      | Purpose                                |
+|-----------------|----------------------------------------|
+| **Next.js**     | React-based framework for frontend + SSR |
+| **TypeScript**  | Type safety and better dev experience  |
+| **Firebase**    | Auth, Firestore DB, Storage, Hosting   |
+| **Gemini API**  | Smart interviewer responses & feedback |
+| **Tailwind CSS**| Utility-first CSS styling              |
+<!-- | **Web Speech API / AssemblyAI / Whisper** | Voice-to-text transcription | -->
+<!-- | **Zustand**     | Lightweight state management           | -->
+
+---
+
+
+<br/>
+
+## 🔧 Installation & Setup
 
 ```bash
+# 1. Clone the repository
+git clone https://github.com/amareshmaharana/real-time-ai-voice-agent-interview-platform.git
+
+# 2. Install dependencies
+npm install
+
+# 3. Set up Firebase project & add .env.local
+# Example:
+FIREBASE_PRIVATE_KEY =
+FIREBASE_CLIENT_EMAIL =
+FIREBASE_PROJECT_ID =
+FIREBASE_API_KEY = 
+
+# 4. Run the dev server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎯 Use Cases
+- 🎓 Students: Practice mock interviews before real campus/online rounds.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 👩‍💼 Job Seekers: Prepare for behavioral and technical rounds.
 
-## Learn More
+<!-- ## 💡 Inspiration
+Vinterra is inspired by the growing need for personalized, scalable, and accessible interview preparation. With AI, we aim to make career readiness more inclusive and efficient. -->
 
-To learn more about Next.js, take a look at the following resources:
+<br/>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧑‍💻 Developed by
+<h3>Amaresh Maharana</h3>
+<li>CSE Student</li>
+<li>Full Stack Developer</li>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+#### 😊 Thank you for visiting and exploring the app.
 
-## Deploy on Vercel
+### ✨🌟 If you explore it and love it please give a star and support on github.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Follow me on [LinkedIn](https://www.linkedin.com/in/amareshmaharana/), [GitHub](https://github.com/amareshmaharana)
