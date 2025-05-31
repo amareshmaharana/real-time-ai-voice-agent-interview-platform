@@ -5,7 +5,7 @@ import { getFirestore } from "firebase/firestore";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCznQVypanpIhiU3aJlfW_rtn3yAQo-l-8",
+  apiKey: process.env.FIREBASE_API_KEY, // firebase api key
   authDomain: "vinterra-700f9.firebaseapp.com",
   projectId: "vinterra-700f9",
   storageBucket: "vinterra-700f9.firebasestorage.app",
