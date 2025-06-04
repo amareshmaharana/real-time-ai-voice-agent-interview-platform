@@ -37,7 +37,7 @@ Vinterra is a cutting-edge real-time AI-powered interview platform built to simu
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/amareshmaharana/real-time-ai-voice-agent-interview-platform.git
+git clone https://github.com/amareshmaharana/vinterra-real-time-ai-interview-platform.git
 
 # 2. Install dependencies
 npm install
