@@ -13,7 +13,7 @@ export const POST = async (request: Request) => {
 
   try {
     const { text: questions } = await generateText({
-      model: google("Gemini 2.5 Pro Preview 05-06"),
+      model: google("gemini-2.0-flash-001"),
       prompt: `Prepare questions for a job interview.
         The job role is ${role}.
         The job experience level is ${level}.
